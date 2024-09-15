@@ -1,0 +1,5 @@
+- name: play book-01
+  hosts: web
+  tasks: play-book 01 and tasks-01
+  - name: play-01 tasks-01
+      msg: "play-book1, tasks-01"
