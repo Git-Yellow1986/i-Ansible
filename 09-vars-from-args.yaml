@@ -1,6 +1,6 @@
 - name: Args from variables
   hosts: web
   tasks: 
-  -name: print the information from arguments 
-   ansible.builtin.debug:
-    msg: "Hello {{NAME}},{{GREETING}}"
+  - name: print the information from arguments 
+    ansible.builtin.debug:
+      msg: "Hello {{NAME}},{{GREETING}}"
