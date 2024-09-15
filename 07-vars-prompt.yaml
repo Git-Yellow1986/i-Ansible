@@ -9,5 +9,5 @@
     prompt: Enter trainer name
   tasks:
   - name: print course information
-      ansible.builtin.debug:
-        msg: "I am learing {{COURSE}}, with {{DURATION}}, my {{TRAINER}}"
+    ansible.builtin.debug:
+      msg: "I am learing {{COURSE}}, with {{DURATION}}, my {{TRAINER}}"
