@@ -1,0 +1,6 @@
+- name: vars prompt
+  hosts: web
+  tasks:
+  - name: print course information
+    ansible.builtin.debug:
+      msg: "Learning {{COURSE}}, duration with {{DURATION}}, by {{TRAINER}}"
