@@ -10,6 +10,6 @@
   - name: install ingix service
     ansible.builtin.service:
       name: nginx service
-      state: present
+      state: started
       enable: yes  
   
