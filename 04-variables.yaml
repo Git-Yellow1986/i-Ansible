@@ -1,0 +1,7 @@
+- name: variable to print
+  hosts: web
+  tasks: 
+
+  - name: print the information
+    ansible.builtin.debug:
+      msg: "Im learning DevOps with aws from siva kumar reddy " 
