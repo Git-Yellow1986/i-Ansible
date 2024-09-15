@@ -1,6 +1,6 @@
 - name: play book-01
   hosts: web
-  tasks: play-book 01 and tasks-01
+  tasks: 
   - name: play-01 tasks-01
     ansible.builtin.ping:
       msg: "play-book1, tasks-01"
