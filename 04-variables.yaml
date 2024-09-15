@@ -5,6 +5,6 @@
     duration: "4 Months"
     trainer: "Siva Kumar Reddy"
   tasks:
-  - name: print the information
+    - name: print the information
     ansible.builtin.debug: # This is a module
       msg: "Im learning {{course}}, with {{duration}}, aws from {{tainer}}" 
