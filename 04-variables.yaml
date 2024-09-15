@@ -8,4 +8,4 @@
 
   - name: print the information
     ansible.builtin.debug: # This is a module
-      msg: "Im learning {{course}} with {{duration}} aws from {{tainer}}" 
+      msg: "Im learning {{course}}, with {{duration}}, aws from {{tainer}}" 
