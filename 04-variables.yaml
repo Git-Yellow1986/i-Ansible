@@ -7,4 +7,4 @@
   tasks:
   - name: print the information
     ansible.builtin.debug: # This is a module
-      msg: "Im learning {{COURSE}}, with {{DURATION}}, aws from {{TRAINER}}" 
+      msg: "Im learning {{COURSE}}, with {{DURATION}}, aws from {{TRAINER}}"

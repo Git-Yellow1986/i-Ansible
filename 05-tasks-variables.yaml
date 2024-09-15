@@ -10,7 +10,7 @@
       msg: "Im learning {{COURSE}}, with {{DURATION}}, aws from {{TRAINER}}" 
 
   - name: print the information
-    vars: 
+    vars: # tasks level variable
       COURSE: "Matthews"
     ansible.builtin.debug: # This is a module
       msg: "Im learning {{COURSE}}, with {{DURATION}}, aws from {{TRAINER}}"

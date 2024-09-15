@@ -1,0 +1,8 @@
+- name: generating var files
+  hosts: web
+  vars_files:
+  - vars.yaml
+  tasks: 
+  - name: var files calling
+    ansible.builtin.debug:
+      msg:  "Im learning {{COURSE}}, with {{DURATION}}, aws from {{TRAINER}}"
