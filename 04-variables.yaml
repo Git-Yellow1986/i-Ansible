@@ -1,8 +1,8 @@
 - name: variable to print
-  hosts: web
+  hosts:  web
   vars:
     COURSE: "DevOps with AWS"
-    TRAINER: "Siva Kumar reddy"
+    TRAINER:  "Siva Kumar reddy"
     DURATION: "2 Months"
   tasks:
   - name: print the information
