@@ -1,3 +1,4 @@
+---
 - name: install naginx
   hosts: web
   become: yes
