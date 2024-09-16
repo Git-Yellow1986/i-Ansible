@@ -1,4 +1,3 @@
----
 - name: install naginx
  hosts: all
  become: true
