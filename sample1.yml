@@ -1,5 +1,5 @@
 - name: install naginx
-  hosts: all
+  hosts: node
   become: true
 
   tasks: 
