@@ -8,7 +8,7 @@
      name: nginx
      state: present
   - name: service
-    service: service
+    service: 
      name: nginx
      state: present 
 
