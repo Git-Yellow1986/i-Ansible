@@ -1,5 +1,5 @@
 - name: install naginx
-  hosts: node
+  hosts: 172.31.26.126
   become: true
 
   tasks: 
